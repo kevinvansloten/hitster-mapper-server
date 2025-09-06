@@ -25,4 +25,4 @@ COPY --from=build /app/publish .
 
 # Define the entry point for the container
 # Replace 'YourAppName.dll' with the actual name of your project's DLL file.
-ENTRYPOINT ["dotnet", "hitster-mapper-server.exe"]
+ENTRYPOINT ["dotnet", "hitster-mapper-server.dll"]
