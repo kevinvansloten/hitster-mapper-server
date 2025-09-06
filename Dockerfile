@@ -5,7 +5,7 @@ WORKDIR /source
 
 # Copy the project file and restore dependencies first
 # This leverages Docker layer caching to speed up future builds
-COPY *.csproj .
+COPY hitster-mapper-server/*.csproj .
 RUN dotnet restore
 
 # Copy the rest of the source code and publish the application
