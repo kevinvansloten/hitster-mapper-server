@@ -1,0 +1,13 @@
+# .dockerignore
+
+# Exclude build artifacts
+bin/
+obj/
+
+# Exclude user-specific files
+*.user
+*.suo
+
+# Exclude secrets
+appsettings.Development.json
+secrets.json
