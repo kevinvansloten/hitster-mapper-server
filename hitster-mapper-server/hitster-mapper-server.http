@@ -1,0 +1,6 @@
+@hitster_mapper_server_HostAddress = http://localhost:5062
+
+GET {{hitster_mapper_server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
